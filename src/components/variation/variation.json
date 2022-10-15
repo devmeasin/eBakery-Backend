@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_variation_variations",
+  "info": {
+    "displayName": "Product Variant",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "variantion_label": {
+      "type": "string"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "green",
+        "white"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "xl",
+        "xxl"
+      ]
+    },
+    "price": {
+      "type": "integer"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

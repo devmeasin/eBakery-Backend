@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "payment_status": {
+      "type": "enumeration",
+      "enum": [
+        "unpaid",
+        "paid",
+        "reject"
+      ]
+    },
+    "order_id": {
+      "type": "uid",
+      "required": true
+    },
+    "transection_id": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
