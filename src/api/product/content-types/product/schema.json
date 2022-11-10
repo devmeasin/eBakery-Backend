@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "tilte": {
+    "title": {
       "type": "string",
       "required": true
     },
@@ -39,8 +39,7 @@
       ]
     },
     "slug": {
-      "type": "uid",
-      "targetField": "tilte"
+      "type": "uid"
     },
     "stock": {
       "type": "integer"
@@ -58,6 +57,10 @@
       "type": "component",
       "repeatable": true,
       "component": "variation.variation"
+    },
+    "sale_price": {
+      "type": "integer",
+      "required": false
     }
   }
 }
