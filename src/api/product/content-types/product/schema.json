@@ -39,7 +39,8 @@
       ]
     },
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "targetField": "title"
     },
     "stock": {
       "type": "integer"
@@ -49,9 +50,6 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "products"
-    },
-    "attributes": {
-      "type": "json"
     },
     "product_variation": {
       "type": "component",
